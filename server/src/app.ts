@@ -47,4 +47,5 @@ app.use((error: any, req: express.Request, res: express.Response, next: express.
 });
 
 // Экспорт для Vercel
+// @vercel/node автоматически создает handler из Express app
 export default app;

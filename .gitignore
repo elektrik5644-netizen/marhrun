@@ -1,0 +1,81 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Сборка
+dist/
+build/
+*.tsbuildinfo
+
+# Окружение
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# База данных
+*.sqlite
+*.sqlite3
+*.db
+
+# Android
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+local.properties
+
+# iOS
+*.xcworkspace
+!default.xcworkspace
+Pods/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Временные файлы
+*.tmp
+*.temp
+temp_gradle/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel
+

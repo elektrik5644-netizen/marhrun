@@ -1,0 +1,1 @@
+{"version":3,"file":"routeController.d.ts","sourceRoot":"","sources":["../../src/controllers/routeController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAG5C,qBAAa,eAAe;WACb,YAAY,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;WAUxC,YAAY,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;WAgBxC,iBAAiB,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAmB3D"}

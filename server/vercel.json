@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "marshrutka-backend",
+  "builds": [
+    {
+      "src": "src/app.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/v1/(.*)",
+      "dest": "src/app.ts"
+    },
+    {
+      "src": "/socket.io/(.*)",
+      "dest": "src/app.ts"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "regions": ["fra1"]
+}

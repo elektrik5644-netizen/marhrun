@@ -1,0 +1,32 @@
+# Vercel ignore file
+
+# Dependencies
+node_modules/
+
+# Development files
+*.log
+.env
+.env.local
+.env.development
+
+# Build files
+dist/
+build/
+
+# Database
+*.sqlite3
+dev.sqlite3
+
+# Tests
+tests/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Documentation
+README.md
+DEPLOYMENT.md
+
+# Git
+.git/
+.gitignore
